@@ -1,16 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
     <title>Dollars to Cents</title>
 </head>
+
 <body>
     <div id="app">
-        <header>Convert</header>
+        <header>convert</header>
         <subheader>dollars to cents</subheader>
+        <div class="input">
+            $
+            <input type="text" id="money-input" class="currency" placeholder="1.00" />
+        </div>
+        <div id="result">
+            <div class="penny">
+                <img src="./img/penny.png" width="110px" height="110px" alt="penny">
+            </div>
+            <div class="nickel">
+                <img src="./img/nickel.jpg" width="110px" height="110px" alt="nickel">
+            </div>
+            <div class="dime">
+                <img src="./img/dime.png" width="110px" height="110px" alt="dime">
+            </div>
+            <div class="quarter">
+                <img src="./img/quarter.png" width="110px" height="110px" alt="quarter">
+            </div>
+            <span id="penny-result">1 x 0</span>
+            <span id="nickel-result">5 x 0</span>
+            <span id="dime-result">10 x 0</span>
+            <span id="quarter-result">25 x 0</span>
+        </div>
     </div>
 </body>
 <script src="./src/logic.js"></script>
+
 </html>
