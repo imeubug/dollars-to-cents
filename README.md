@@ -2,7 +2,7 @@
 
 Day 13: Dollars to Cents
 
-<!-- ![demo picture](./borderradius.gif) -->
+![demo picture](./d2c.gif)
 
 ## Description
 This project is from [app-ideas](https://github.com/florinpop17/app-ideas) created by Florin Pop.
